@@ -11,10 +11,7 @@
       "tabs"
   ],
   "icons": {
-    "16": "Kfbsr.png",
-    "48": "Kfbsr.png",
-    "128": "Kfbsr.png",
-    "36": "Kfbsr.png"
+    "48": "Kfbsr.png"
   },
   "content_scripts": [
     {
