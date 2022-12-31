@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "H-FB-S&R",
+  "author": "widomin@hotmail.com",  
+  "version": "0.1",
+  "description": "Hide facebook suggestions and reels",
+  "homepage_url": "https://github.com/widomin/hideFBSuggestionsAndReels",
+  "permissions": [
+      "activeTab",
+      "scripting",
+      "tabs"
+  ],
+  "icons": {
+    "16": "Kfbsr.png",
+    "48": "Kfbsr.png",
+    "128": "Kfbsr.png",
+    "36": "Kfbsr.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["content_script.js"]
+    }
+  ]
+}
